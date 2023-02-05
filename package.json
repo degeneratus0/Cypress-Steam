@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "cypress": "^12.0.0"
+    },
+    "scripts": {
+        "cy:open": "cypress open",
+        "cy:run:chrome": "cypress run -b chrome --headed --no-exit",
+        "cy:run:firefox": "cypress run -b firefox --headed --no-exit"
+    }
+}
